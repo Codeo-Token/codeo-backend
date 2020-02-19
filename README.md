@@ -1,0 +1,9 @@
+## tolong di install
+yarn add bcryptjs body-parser express
+
+npm install -D nodemon
+
+# backend
+# test-backend
+# codeo-backend
+# codeo-backend
