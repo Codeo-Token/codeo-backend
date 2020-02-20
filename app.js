@@ -10,6 +10,9 @@ const mongodbbank = require("./routes/codeomongodbbank");
 const mongodb = require("./routes/codeomongodb");
 const mongodbcms = require("./routes/codeomongodbcms");
 const mongodbledger = require("./routes/codeomongodbledger");
+const mongodbkycapprov = require("./routes/codeomongodbkycapprov");
+
+
 
 
 
@@ -29,7 +32,7 @@ app.use("/mongodbbank", mongodbbank);
 app.use("/mongodb", mongodb);
 app.use("/mongodbcms", mongodbcms);
 app.use("/mongodbledger", mongodbledger);
-
+app.use("/mongodbkycapprov", mongodbkycapprov);
 
 
 
