@@ -76,7 +76,7 @@ module.exports = {
   },
 
   deleteMongodbkycapprov: (req, res) => {
-    Mongodb.findOneAndDelete({ _id: req.params._id }, (error, result) => {
+    Mongodbkycapprov.findOneAndDelete({ _id: req.params._id }, (error, result) => {
       if (error) {
         res.status(400).send({
           message: `data kyc failed to delete`,
